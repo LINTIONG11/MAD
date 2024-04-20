@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180589732411",
+    "project_id": "maddb-d0cee",
+    "storage_bucket": "maddb-d0cee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180589732411:android:34b636409adcab6cd0f21e",
+        "android_client_info": {
+          "package_name": "com.utar.mad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ0rMeFa3VSlIQfWG1D-FXIFoLzYcl7u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
