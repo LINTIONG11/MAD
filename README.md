@@ -1,7 +1,7 @@
 # Project Documentation
 
 ## 1. Introduction
-UniBudget is a finance management application that design for university students. The goal of this application is to help students manage their financial such as track expenses and income, set saving goals,
+UniBudget is a finance management application that designed for university students. The goal of this application is to help students manage their financial such as track expenses and income, set saving goals,
 and payment schedule with notification etc.
 
 ## 2. Team Members
@@ -15,46 +15,62 @@ List of team members with their roles and responsibilities:
 ## 3. Source Code Repository
 The project's source code is hosted on GitHub for version control. Each team member's contributions are clearly labeled within the repository.
 
-Repository: [GitHub Repository Link]
+Repository: (https://github.com/LINTIONG11/MAD.git)
 
 ### 3.1 Contributors
-- **[Member Name]**: Implemented feature X
-- **[Member Name]**: Designed UI components
-- **[Member Name]**: Reviewed and merged pull requests
+- YEOH LIN TIONG: Developed More Action Page 
+- Stanley Chong Chuan Yian: Developed Home Page
+- Lenges Chandran: Develop Transaction Page
+- Hew Sze Yow: Develop Budget Page
 
 ## 4. Project Structure
-Brief overview of the project's structure, including major components and directories.
+The project is structured as follows:
+
+- `/lib`: This directory contains all the source code of the Flutter application.
+- `main.dart`: Entry point of the application.
+- `pages/`: Contains the screens or pages of the application.
+- `models/`: Contains data models used throughout the application.
+- `struct/`: Contains reusable UI components.
+- `database/`: Contains classes for handling network requests, database operations, etc.
+- `/assets`: This directory contains static assets such as images, fonts, and JSON files.
+- **`/test`**: Contains unit tests for the application.
+- **`/android`**: Contains Android-specific configuration files.
+- **`/ios`**: Contains iOS-specific configuration files.
+- **`pubspec.yaml`**: Defines the dependencies and metadata of the Flutter project.
+
 
 ## 5. Roles and Contributions
 Detailed breakdown of each member's contributions:
 
-### 5.1 [Member Name]
-- **Role**: Project Manager
+### 5.1 Yeoh Lin Tiong
+- **Role**: Leader
 - **Contributions**:
-  - Managed project timeline and milestones
-  - Coordinated team meetings and discussions
-  - Ensured project requirements were met
+  - Responsible for the functions and features of more action page
+  - Function of 'All Spending Summary'
+  - Simulate Google Account Login feature
+  - Scheduled Function
+  - Set goal and loan function
 
-### 5.2 [Member Name]
-- **Role**: Lead Developer
+### 5.2 Stanley Chong Chuan Yian
+- **Role**: Team member
 - **Contributions**:
-  - Implemented core functionalities
-  - Resolved technical issues and bugs
-  - Conducted code reviews and provided feedback
+  - Responsible for Home page functions and features
+  - Graph of overall spending and income
+  - Transaction History
 
-### 5.3 [Member Name]
-- **Role**: Designer
+### 5.3 Lenges Chandran
+- **Role**: Team member
 - **Contributions**:
-  - Created UI/UX designs and prototypes
-  - Implemented front-end layout and styling
-  - Ensured consistent design across the application
+  - Responsible for Transaction page functions and features
+  - The logic of record spending and income
+  - The logic of adding the transaction (is saving or overspending)
 
-### 5.4 [Member Name]
-- **Role**: QA Tester
+### 5.4 Hew Sze Yow
+- **Role**: Team member
 - **Contributions**:
-  - Developed and executed test cases
-  - Identified and reported bugs
-  - Ensured overall product quality
+  - Responsible for Transaction page functions and features
+  - The logic of expense/saving budget
+  
 
 ## 6. Conclusion
-Wrap-up of the project, achievements, and any future plans.
+This application were works smoothly with each function, I believe this application was fulfilled our project requirements.It might need further updates after published and get user feedback.
